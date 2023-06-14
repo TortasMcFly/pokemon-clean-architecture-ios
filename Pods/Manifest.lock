@@ -1,25 +1,20 @@
 PODS:
-  - Resolver (1.0.7)
-  - Swinject (2.8.3)
-  - SwinjectAutoregistration (2.8.3):
-    - Swinject (~> 2.8.3)
+  - Alamofire (5.7.1)
+  - Resolver (1.5.0)
 
 DEPENDENCIES:
+  - Alamofire
   - Resolver
-  - Swinject (= 2.8.3)
-  - SwinjectAutoregistration (= 2.8.3)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
+    - Alamofire
     - Resolver
-    - Swinject
-    - SwinjectAutoregistration
 
 SPEC CHECKSUMS:
-  Resolver: da30396fcabb46790959209430a4a0a9e6e39849
-  Swinject: 893c9a543000ac2f10ee4cbaf0933c6992c935d5
-  SwinjectAutoregistration: e3ee378dc458acf78d176fc7fec3902603452667
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  Resolver: 68984624572763018fd8ec7b8e3e8df0e3b6bba5
 
-PODFILE CHECKSUM: 1b43b58900b80df1a740e297decef920ba56212e
+PODFILE CHECKSUM: cb1e26523700aaf1592e2084a01635ec6f354101
 
 COCOAPODS: 1.12.1
